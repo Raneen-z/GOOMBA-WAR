@@ -10,9 +10,10 @@ hit the more scores you get.
 **Use left and right arrows to move and space to shoot**
 
 ### Gameplay Overview:
+<img src="images\overview.gif" alt="overviw" width="500"/>
 
 ### Sample Demo:
-[GOOMBA-WAR]()
+[GOOMBA-WAR](https://raneen-z.github.io/GOOMBA-WAR/)
 
 ### Built With:
 - HTML
