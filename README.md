@@ -1,6 +1,9 @@
 # GOOMBA-WAR
 This game is developed for learning purpose only
 
+### Sample Demo:
+[GOOMBA-WAR](https://raneen-z.github.io/GOOMBA-WAR/)
+
 ### Game Story: 
 Mario went to defeat the evil Bowser, but Bowser sent his Goomba army! Mario needs to
 defeat 50 Goomba before he can challenge Bowser. 
@@ -11,9 +14,6 @@ hit the more scores you get.
 
 ### Gameplay Overview:
 <img src="images\overview.gif" alt="overviw" width="500"/>
-
-### Sample Demo:
-[GOOMBA-WAR](https://raneen-z.github.io/GOOMBA-WAR/)
 
 ### Built With:
 - HTML
