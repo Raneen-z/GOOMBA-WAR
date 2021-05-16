@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOMBA-WAR</title>
+    <link rel="icon" href="./images/goomba.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Russo+One&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <h1 id="gameName" class="gamePlay">GOOMBA-WAR</h1>
+    <div class="scoreBoard gamePlay">
+        <div class="row btns">
+            <button id="homeBtn">HOME</button>
+        </div>
+        <div class="row">
+
+            <div class="scoreDiv">Your score
+                <h3 class="score"></h3>
+            </div>
+            <div id="stars">
+            </div>
+        </div>
+
+    </div>
+    <div class="canvas gamePlay">
+        <div id="hide">
+            <h1 id=message>GAME OVER</h1>
+        </div>
+        <div class="character" id="moveCharacter">
+
+        </div>
+    </div>
+
+
+    <h1 id="gameName" class="startPage">GOOMBA-WAR</h1>
+
+    <div class="main startPage">
+        <button id="startBtn">START</button>
+        <button id="helpBtn">HOW TO PLAY</button>
+        <div class="character rightSide">
+        </div>
+    </div>
+
+
+    <h1 id="gameName" class="helpPage">GOOMBA-WAR</h1>
+
+    <div class="main helpPage">
+        <div class="helpCard">
+            <p class="helpCard">Mario went to defeat the evil Bowser, but Bowser sent his Goomba army! Mario needs to
+                defeat 50 Goomba before he can challenge Bowser. </p>
+            <p class="helpCard">Let <span class="helpCard">Mario</span> win the
+                war by hitting the falling Goomba, you can hide from Goomba under the blocks. The more Goombas' you
+                hit the more scores you get.</p>
+            <p class="helpCard">Use left and right arrows to move and space to shoot</p>
+        </div>
+        <button id="backBtn">GO BACK</button>
+
+    </div>
+    </div>
+
+    <!--     <footer class="bg-light text-center footer">
+   
+        <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2021 Created by: Raneen Alzafarani
+        </div>
+       
+      </footer> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
